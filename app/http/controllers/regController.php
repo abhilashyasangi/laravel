@@ -12,7 +12,7 @@ class RegistrationController extends Controller
         return view('registration.create');
     }
     
-    public function store()
+    public function login()
     {
         $this->validate(request(), [
             'first_name' => 'required',
